@@ -1,0 +1,7 @@
+[user]
+	email = austinpahl@gmail.com
+	name = Austin Pahl
+[credential]
+	helper = cache
+[core]
+	editor = nvim
