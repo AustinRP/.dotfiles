@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install stow nvim 
+sudo apt install -y stow neovim 
