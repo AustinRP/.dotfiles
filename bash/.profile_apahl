@@ -1,0 +1,20 @@
+export EDITOR="/usr/bin/nvim"
+
+alias h="history"
+alias lshal="ls -hAl"
+alias upd="sudo apt update"
+alias upg="sudo apt upgrade"
+alias vim="nvim"
+
+function md2pdf() {
+    (set -x; pandoc -s -o ${1/md/pdf} $1)
+}
+
+function mkcd(){
+  mkdir $1
+  cd $1
+}
+
+function ppgrep() { pgrep "$@" | xargs --no-run-if-empty ps fp; }
+
+DOTNET_CLI_TELEMETRY_OPTOUT=1
