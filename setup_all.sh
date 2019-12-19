@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if ! grep ~/.bashrc -e "source .profile_apahl"
+if ! grep ~/.bashrc -e "source ~/.profile_apahl"
 then
-    echo "source .profile_apahl" >> ~/.bashrc
+    echo "source ~/.profile_apahl" >> ~/.bashrc
 fi
 
 for dir in */
